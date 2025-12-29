@@ -1,4 +1,8 @@
   
+        @import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
+        
         /* ===== RÉINITIALISATION (Reset) ===== */
         * {
             margin: 0;
@@ -7,10 +11,11 @@
         }
 
         /* ===== STYLES GLOBAUX (Design Apple) ===== */
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            color: #1d1d1f;
-            background-color: #ffffff;
+            color: #1a1a1d;
+            background-color: #f1f1f4;
             line-height: 1.6;
         }
 
@@ -22,7 +27,7 @@
 
         /* ===== HEADER / NAVIGATION ===== */
         header {
-            background-color: #ffffff;
+            background-color: #b49399;
             border-bottom: 1px solid #e5e5e7;
             padding: 20px 0;
             position: sticky;
@@ -66,6 +71,8 @@
 color: blue;
         }
 
+/* modification googlefont des typograohie de la h1 à la h3 */
+
         /* ===== HERO SECTION ===== */
         .hero {
             background-color: #ffffff;
@@ -79,6 +86,7 @@ color: blue;
         }
 
         .hero h1 {
+           font-family: "Sekuya", system-ui;
             font-size: 4rem;
             font-weight: 700;
             margin-bottom: 24px;
@@ -87,6 +95,7 @@ color: blue;
         }
 
         .hero p {
+            font-family: "Geom", sans-serif;
             font-size: 1.3rem;
             color: #6f6f74;
             margin-bottom: 40px;
@@ -99,7 +108,7 @@ color: blue;
 
         .cta-button {
             display: inline-block;
-            background-color: pink;
+            background-color: rgb(206, 192, 238);
             color: white;
             padding: 14px 32px;
             border-radius: 980px;
@@ -120,6 +129,7 @@ color: blue;
         }
 
         .section-title {
+            font-family: "Sekuya", system-ui;
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 60px;
@@ -158,6 +168,7 @@ color: blue;
         }
 
         .about-text p {
+            font-family: "Geom", sans-serif;
             font-size: 1.1rem;
             color: #6f6f74;
             margin-bottom: 24px;
@@ -167,7 +178,7 @@ color: blue;
 
         /* ===== SKILLS SECTION ===== */
         .skills {
-            background-color: #e7e7f6;
+            background-color: #fcfcfc;
             padding: 120px 0;
         }
 
@@ -181,7 +192,7 @@ color: blue;
         }
 
         .skill-card {
-            background: rgb(177, 166, 207);
+            background: rgb(204, 197, 223);
             padding: 40px;
             border-radius: 20px;
             text-align: center;
@@ -207,6 +218,7 @@ color: blue;
         }
 
         .skill-card p {
+            font-family: "Geom", sans-serif;
             color: #6f6f74;
             font-size: 1rem;
             font-weight: 400;
@@ -297,6 +309,7 @@ color: blue;
         }
 
         .contact h2 {
+            font-family: "Sekuya", system-ui;
             text-align: center;
             font-size: 3rem;
             font-weight: 700;
