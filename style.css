@@ -1,5 +1,5 @@
   
-        @import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         @import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
         
@@ -86,8 +86,8 @@ color: blue;
         }
 
         .hero h1 {
-           font-family: "Sekuya", system-ui;
-            font-size: 4rem;
+            font-family: "Kanit", sans-serif;
+            font-size: 5rem;
             font-weight: 700;
             margin-bottom: 24px;
             letter-spacing: -1px;
@@ -129,7 +129,7 @@ color: blue;
         }
 
         .section-title {
-            font-family: "Sekuya", system-ui;
+         font-family: "Kanit", sans-serif;;
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 60px;
@@ -313,7 +313,7 @@ color: blue;
         }
 
         .contact h2 {
-            font-family: "Sekuya", system-ui;
+            font-family: "Kanit", sans-serif;
             text-align: center;
             font-size: 3rem;
             font-weight: 700;
