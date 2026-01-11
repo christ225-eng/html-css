@@ -108,7 +108,7 @@ color: blue;
 
         .cta-button {
             display: inline-block;
-            background-color: rgb(206, 192, 238);
+            background-color: #7c999e;
             color: white;
             padding: 14px 32px;
             border-radius: 980px;
@@ -560,7 +560,7 @@ color: blue;
 }
 
 section, .hero, .about, .skills, .projects, .contact, footer {
-    background-color:#94c7a36c
+    background-color:#94c7a36c;
 }
 
 
